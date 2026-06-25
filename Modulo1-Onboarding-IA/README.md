@@ -169,6 +169,90 @@ O NotebookLM gerou automaticamente um **mapa mental** com base nas fontes inseri
 
 ---
 
+## 💡 Prompts para pesquisas futuras
+ 
+Os prompts abaixo foram desenvolvidos para aprofundar o estudo de análise de dados em sessões futuras com IAs como o NotebookLM ou o Claude.
+ 
+---
+ 
+### Prompt 1 — Diagnóstico de lacunas e plano de estudo personalizado
+ 
+```
+Você é um mentor especialista em análise de dados com experiência em
+contratação e desenvolvimento de profissionais júnior. Analise as fontes
+disponíveis e atue como um orientador de carreira.
+ 
+Com base no perfil abaixo:
+- Nível atual: [iniciante / tem base em Excel / já conhece SQL básico]
+- Disponibilidade de estudo: [X horas por semana]
+- Background profissional anterior: [ex: vendas, administrativo, TI]
+- Objetivo: conseguir a primeira vaga de analista de dados em [X meses]
+ 
+Faça o seguinte:
+ 
+1. DIAGNÓSTICO: Identifique quais habilidades das fontes são mais urgentes
+para o meu perfil específico e quais posso deixar para depois.
+ 
+2. PLANO SEMANAL: Monte um cronograma semana a semana com tópicos,
+recursos e metas mensuráveis — considerando minha disponibilidade.
+ 
+3. MARCOS DE VALIDAÇÃO: Defina 3 checkpoints ao longo do plano onde eu
+consiga avaliar se estou no ritmo certo ou preciso ajustar.
+ 
+4. PROJETOS PRÁTICOS: Sugira 2 projetos de portfólio alinhados ao meu
+background anterior que eu possa construir enquanto aprendo, com dados
+reais e uma pergunta de negócio clara para cada um.
+ 
+5. ARMADILHAS: Liste os 3 erros mais comuns que iniciantes cometem nessa
+jornada e como evitá-los com base nas fontes.
+ 
+Seja direto e específico. Evite recomendações genéricas.
+```
+ 
+> **Como usar:** Preencha os campos entre colchetes com o seu perfil real antes de enviar. Quanto mais específico você for, mais personalizada será a resposta.
+ 
+---
+ 
+### Prompt 2 — Simulação de processo seletivo técnico
+ 
+```
+Você é um recrutador técnico sênior de uma empresa de médio porte que
+está contratando um analista de dados júnior. Seu papel é conduzir uma
+entrevista técnica realista e dar feedback construtivo ao final.
+ 
+Contexto da vaga simulada:
+- Setor da empresa: [ex: varejo / financeiro / saúde / tecnologia]
+- Stack de dados da empresa: SQL + Power BI + Excel
+- Time: 3 analistas, relatórios diretos ao gerente de operações
+ 
+Conduza a simulação em 4 etapas:
+ 
+1. PERGUNTAS COMPORTAMENTAIS (2 perguntas): Foque em situações onde o
+candidato precisou resolver um problema com dados ou comunicar resultados
+para alguém não técnico.
+ 
+2. DESAFIO TÉCNICO DE SQL: Apresente um cenário de negócio do setor
+escolhido e peça para eu escrever uma query. Corrija e explique os erros
+se houver, apontando o que o recrutador esperaria ver.
+ 
+3. INTERPRETAÇÃO DE DASHBOARD: Descreva um dashboard hipotético com 3
+métricas e peça para eu identificar um insight e sugerir uma ação para
+o negócio com base nele.
+ 
+4. FEEDBACK FINAL: Avalie minha performance simulada com:
+   - Pontos fortes demonstrados
+   - Lacunas críticas a corrigir antes de entrevistas reais
+   - Uma nota de 0 a 10 com justificativa
+   - Os próximos 2 tópicos que devo estudar com prioridade
+ 
+Seja exigente mas justo. O objetivo é me preparar para a realidade
+do mercado, não me poupar de críticas construtivas.
+```
+ 
+> **Como usar:** Substitua o campo `[setor da empresa]` pelo setor em que você quer trabalhar. Use este prompt após ter estudado SQL e BI para simular uma entrevista real e identificar pontos cegos antes de processos seletivos.
+ 
+---
+
 ## ⚠️ Dificuldades encontradas durante o processo
 
 Durante o uso do NotebookLM, foi identificada uma **limitação importante relacionada às fontes**:
