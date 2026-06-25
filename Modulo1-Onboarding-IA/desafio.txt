@@ -1,0 +1,41 @@
+1. Contexto e Objetivos: Inicie seu README explicando qual foi o assunto de interesse escolhido para o seu caderno temático e defina claramente quais são os seus objetivos de estudo com esse material.
+
+2. Curadoria de Fontes: Liste e disponibilize (ou insira os links) de 3 a 5 fontes abertas em texto ou PDF que você selecionou e fez o upload no NotebookLM.
+
+    Fontes:
+
+    How I’d Become a Data Analyst in 2026 (the full roadmap)
+    https://www.youtube.com/watch?v=hGCKdMsfU7g
+
+    How I'd become a data analyst (if i had to start over) in 2026
+    https://www.youtube.com/watch?v=dJA7k58zlA8
+
+    This is how you'll become a REMOTE Data Analyst in 2026 (FULL Guide)
+    https://www.youtube.com/watch?v=q5MOKiZzSFA
+
+    How I Would Learn to be a Data Analyst
+    https://www.youtube.com/watch?v=TFFzNjWkhDk
+
+    Fastest way to become a self taught data analyst and get a job
+    https://www.youtube.com/watch?v=sF5FyLeSR-8
+
+    Data Analyst Roadmap
+    https://roadmap.sh/data-analyst
+
+3. Engenharia de Prompts e "Cicatrizes": Documente as perguntas estratégicas que você elaborou e as variações de prompts que testou. Dica de ouro: registre as respostas obtidas, suas referências e também as dificuldades que encontrou para extrair a melhor resposta da IA (troubleshooting). O mercado valoriza profissionais que mostram o raciocínio por trás dos resultados!
+
+    3.1 Perguntas:
+        Quais são as ferramentas fundamentais para um analista de dados?
+        Qual o nível de SQL necessário para a vaga júnior?   
+        Quais conhecimentos básicos de estatística necessários para um analista de dados júnior?
+        O que as empresas mais procuram em um analista de dados júnior?
+        Se eu for começar hoje a estudar, quais os primeiros passos devo tomar?
+
+    3.2 Dificuldades:
+        Por ter colocado 5 vídeos de pessoas experientes na área de análise de dados, encontrei dificuldade em achar respostas básicas como, por exemplo, quando perguntei sobre quais conheciemntos básicos de estatística um analista júnior deve ter. Fiz duas perguntas diferentes, uma para analista de dados e outra focada em analista de dados júnior, e a resposta foi a mesma devido as fontes que usei. O NotebookLM se limitou nas respostas, mas por conta das fontes que, num geral, falam a mesma coisa e um nível mais avançado.
+        
+4. Miniguia de Estudo (Entrega Final): Apresente o resultado final consolidado, que deve conter:
+    Resumos estruturados do assunto;
+    Um glossário com os principais conceitos aprendidos;
+    Um conjunto de prompts reutilizáveis que possam apoiar futuras revisões sobre o tema.
+
