@@ -156,16 +156,16 @@ O caminho consensual entre as fontes leva de **6 a 12 meses**. A ordem recomenda
 O NotebookLM gerou automaticamente um **mapa mental** com base nas fontes inseridas, organizando os conceitos em quatro grandes eixos temáticos. As imagens abaixo foram exportadas e salvas no projeto:
 
 ### Conceitos Fundamentais da Análise de Dados
-<img src="conceitos.png" alt="Mapa Mental - Conceitos Fundamentais" width="700"/>
+<img src="imgs/conceitos.png" alt="Mapa Mental - Conceitos Fundamentais" width="700"/>
 
 ### Diferenciais do Profissional de Dados
-<img src="diferencial.png" alt="Mapa Mental - Diferenciais" width="700"/>
+<img src="imgs/diferencial.png" alt="Mapa Mental - Diferenciais" width="700"/>
 
 ### Matemática e Estatística Necessárias
-<img src="estatistica.png" alt="Mapa Mental - Estatística" width="700"/>
+<img src="imgs/estatistica.png" alt="Mapa Mental - Estatística" width="700"/>
 
 ### Linguagens de Programação para Análise de Dados
-<img src="linguagens.png" alt="Mapa Mental - Linguagens" width="700"/>
+<img src="imgs/linguagens.png" alt="Mapa Mental - Linguagens" width="700"/>
 
 ---
 
