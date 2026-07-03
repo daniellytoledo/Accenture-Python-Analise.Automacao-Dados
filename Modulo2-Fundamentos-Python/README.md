@@ -1,6 +1,6 @@
 # 🐍 Módulo 2 — Conhecendo a Linguagem de Programação Python
 
-> **Bootcamp:** Accenture — Análise de Dados com Python e Automação · Plataforma DIO
+> **Bootcamp:** Accenture - Python para Análise e Automação de Dados · Plataforma DIO
 
 ---
 
