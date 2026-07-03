@@ -9,3 +9,27 @@
 # Saída
 # Imprima o código correspondente ao título consultado. Caso o título não exista, imprima Livro nao encontrado.
 
+# Leitura da quantidade de livros cadastrados
+n = int(input())
+
+# Dicionário para armazenar o acervo: título -> código
+acervo = {}
+
+# Leitura dos pares título-código
+for _ in range(n):
+    linha = input().strip() # aqui o usuário cadastra as linhas que foram determinadas no n sobre o livro,
+    titulo, codigo = linha.split() # o split separa o titulo e o codigo em 2 valores ["titulo", "codigo"]
+    # aqui é adicionado ao dicionário acervo, o título [titulo] que tem o valor igual ao código, ou seja, no dicionário fica então assim { "titulo": "codigo"}
+    acervo[titulo] = codigo
+    # TO DO: Separe o título e o código da linha e adicione ao dicionário 'acervo'
+    # Dica: Use split() para separar e atribua corretamente no dicionário
+    
+
+# Leitura do título a ser consultado
+consulta = input().strip()
+
+# Busca pelo título no acervo e impressão do resultado
+if consulta in acervo:
+    print(acervo[consulta])
+else:
+    print("Livro nao encontrado")
