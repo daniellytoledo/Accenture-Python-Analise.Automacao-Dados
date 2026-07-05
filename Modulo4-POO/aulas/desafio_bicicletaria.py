@@ -1,9 +1,9 @@
 class Bicicleta:
     def __init__ (self, cor, modelo, ano, valor):
-        self.cor    = cor
-        self.modelo = modelo
-        self.ano    = ano
-        self.valor  = valor
+        self.cor    = cor    # atributo
+        self.modelo = modelo # atributo
+        self.ano    = ano    # atributo
+        self.valor  = valor  # atributo
 
     # neste def estamos criando uma definição de construtor usando __init__
     # o self é uma referência ao objeto, é um atributo que reprefesenta a instância do objeto. poderia ser outro nome como this, mas o self é uma boa prática, além de que o this pegaria apenas o escopo "local", não pegaria referência externa. essa função dentro da classe está servindo para definir as caracteristicas da classe que neste caso é a bicicleta
