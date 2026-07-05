@@ -1,4 +1,4 @@
-nome = "Guilherme"
+nome  = "Guilherme"
 idade = 28
 
 nome, idade = "Giovanna", 27

@@ -8,8 +8,8 @@ print(True or True or True)
 print(True or False or False)
 print(False or False or False)
 
-saldo = 1000
-saque = 250
+saldo  = 1000
+saque  = 250
 limite = 200
 conta_especial = True
 
