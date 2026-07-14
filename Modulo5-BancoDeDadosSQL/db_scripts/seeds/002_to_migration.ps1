@@ -2,7 +2,7 @@
 $scriptDirectory = Split-Path $MyInvocation.MyCommand.Definition -Parent
 
 # arquivo de saída com todos os sql
-$OutputFile = Join-Path -Path scriptDirectory -ChildPath "migration.sql"
+$OutputFile = Join-Path -Path $scriptDirectory -ChildPath "migration.sql"
 
 # verifica se o arquivo já existe, se existir deleta
 if (Test-Path $OutputFile){
