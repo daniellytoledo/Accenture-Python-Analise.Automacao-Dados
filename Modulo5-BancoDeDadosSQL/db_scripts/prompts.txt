@@ -1,0 +1,30 @@
+# prompt para criar banco de dados de pokemon card
+
+{ação}
+create a script to create a table in postgresql
+
+{contexto}
+- the first table is a table to save pokemon TCG cards
+- the second table is a table to save colletions set
+- conect the tables with foreing keys
+
+{informações}
+
+1. first table: tbl_cards
+- HP
+- NAME
+- TYPE
+- STAGE
+- INFO 
+- ATTACK
+- DEMMAGE
+- WEAK
+- RESSIS
+- RETREAT
+- CARD NUMBER IN COLLECTION 
+
+2. second table: tbl_colletions
+- ID
+- COLLETION SET NAME
+- RELEASE DATE
+- TOTAL CARDS IN COLLECTION
