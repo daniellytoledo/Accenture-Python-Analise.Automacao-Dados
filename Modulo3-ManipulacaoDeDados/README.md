@@ -192,6 +192,7 @@ dobro(5)              # 10
 ## 🛠️ Tecnologias utilizadas neste módulo
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-README-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
 ---
 
