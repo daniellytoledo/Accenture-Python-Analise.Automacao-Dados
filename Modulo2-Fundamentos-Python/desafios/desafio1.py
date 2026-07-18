@@ -21,3 +21,4 @@ elif 100 <= valor_compra <= 199:
   print("Desconto de 10 reais aplicado!")
 else:
   print("Desconto de 25 reais aplicado!")
+
