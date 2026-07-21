@@ -26,3 +26,30 @@
 # calcular métricas
 # gerar relatórios
 
+import csv
+
+# criando arquivo de vendas
+total = 0
+with open("vendas.txt", "w") as f:
+    f.write("100 \n 200 \n 150 \n 300 ")
+
+with open("vendas.txt", "r") as f:
+    for linha in f:
+        valor = int(linha.strip())
+        total += valor
+
+print("Total de vendas: ", total)
+
+# ------------------------------------------------------------------------------------------
+
+# Integração com APIs e bancos
+# Uma API permite que sistemas compartilhem dados automaticamente.Podemos usar APIs para coletar dados da internet.
+
+import requests
+
+url = "https://api.agify.io/?name=ana"
+
+resposta = requests.get(url)
+dados    = resposta.json()
+
+print(dados)
