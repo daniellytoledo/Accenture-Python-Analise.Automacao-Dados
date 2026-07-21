@@ -50,3 +50,10 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 logging.info("Script de automação iniciado!")
+
+logging.basicConfig(level=logging.DEBUG)
+
+logging.debug("Informação de depuração.")
+logging.info("Processo iniciado.")
+logging.warning("Possível problema detectado.")
+logging.error("Erro na execução")
