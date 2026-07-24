@@ -21,7 +21,7 @@ df.head()
 
 # Antes de treinar o modelo, precisamos preparar os dados
 
- # remove valores ausentes
+# remove valores ausentes
 df = df.dropna()
 # removendo a median_house_value porque é o que estamos tentando prever
 x = df.drop("median_house_value", axis=1) 
