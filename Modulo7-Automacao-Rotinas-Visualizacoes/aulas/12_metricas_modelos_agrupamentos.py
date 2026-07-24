@@ -73,3 +73,49 @@ silhueta = silhouette_score(X_cluster, clusters)
 print(silhueta)
 # resultado em porcentagem
 
+#-----------------------------------------------------------------------------------
+# Davies-Boudin Index
+
+# Esse índice mede a relação entre dispersão interna e distância entre clusters.
+# Interpretação: valores menores indicam clusters melhores.
+
+from sklearn.metrics import davies_bouldin_score
+
+db = davies_bouldin_score(X_cluster, clusters)
+print(db)
+
+#-----------------------------------------------------------------------------------
+# Dunn Index
+
+# O índice Dunn mede a razão entre menor distância entre clusters e maior diâmetro dentro de um cluster.
+# Interpretação: valores maiores indicam clusters melhores.
+
+from scipy.spatial.distance import cdist
+import numpy as np
+
+def dunn_index(X, labels):
+    clusters = np.unique(labels)
+    centroids = np.array([X[labels == k].mean(axis=0) for k in clusters])
+    intercluster = np.min(cdist(centroids, centroids) + np.eye(len(centroids)) * 1e9)
+
+    intracluster = np.max([
+        np.max(cdist(X[labels == k], X[labels == k]))
+        for k in clusters
+    ])
+
+    return intercluster / intracluster
+
+dunn = dunn_index(X_cluster.values, clusters)
+print(dunn)
+
+#-----------------------------------------------------------------------------------
+
+# Comparação das métricas
+
+cluster_metrics = pd.DataFrame({
+    "WSS":               [KMeans.inertia_],
+    "Calinski-Harabasz": [silhueta],
+    "Davies-Bouldin":    [db],
+    "Dunn":              [dunn]
+})
+
