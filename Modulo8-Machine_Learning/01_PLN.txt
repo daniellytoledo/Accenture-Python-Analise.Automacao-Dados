@@ -1,0 +1,118 @@
+
+O que é PLN?
+
+Processamento de linguagem natural (PLN) é uma vertente da inteligência artificial que ajuda computadores a entender, interpretar e manipular a linguagem humana. O objetivo é fazer com que as máquinas consigam comunicar com as pessoas de forma mais natural.
+
+Como funciona? O PLN combina conhecimentos de:
+→ Inteligência Artificial
+→ Machine Learning
+→ Linguística
+→ Ciência da Computação
+
+O processo, de forma simplificada, envolve:
+1. Receber o texto ou a fala do utilizador.
+2. Analisar a linguagem, identificando palavras, frases e o seu significado.
+3. Interpretar a intenção da mensagem.
+4. Gerar uma resposta ou executar uma ação.
+
+Exemplos de aplicações
+→ Chatbots de atendimento ao cliente.
+→ Assistentes virtuais, como Siri, Alexa e Google Assistente.
+→ Tradutores automáticos, como Google Tradutor.
+→ Corretores ortográficos e gramaticais.
+→ Filtros de spam em e-mails.
+→ Análise de sentimentos em comentários e redes sociais.
+→ Resumos automáticos de documentos.
+→ Pesquisa inteligente em motores de busca.
+
+--------------- Relação com Machine Learning
+
+Grande parte dos sistemas modernos de PLN utiliza Machine Learning e Deep Learning para aprender padrões da linguagem humana. Esses modelos são treinados com grandes quantidades de texto, permitindo-lhes:
+
+→ responder perguntas;
+→ traduzir idiomas;
+→ resumir documentos;
+→ escrever textos;
+→ compreender diferentes formas de expressão.
+
+O ChatGPT, por exemplo, utiliza técnicas avançadas de PLN baseadas em modelos de linguagem de grande escala.
+
+--------------- Deep Learning para PLN
+
+O Deep Learning para Processamento de Linguagem Natural é a aplicação de redes neurais profundas para que computadores consigam compreender, interpretar e gerar linguagem humana com maior precisão do que métodos tradicionais. Ao contrário das técnicas clássicas de PLN, que dependiam de regras definidas por programadores ou da extração manual de características, o Deep Learning aprende automaticamente padrões complexos a partir de grandes volumes de texto.
+
+Como funciona?
+
+O processo pode ser resumido em quatro etapas:
+
+1. Recolha de dados
+    → O modelo é treinado com milhões ou bilhões de palavras provenientes de livros, artigos, websites e outros textos.
+2. Representação das palavras
+    → As palavras são convertidas em números (vetores), permitindo que o computador realize cálculos matemáticos.
+    → Técnicas como word embeddings representam palavras com significados semelhantes por vetores próximos.
+3. Treinamento da rede neural
+    → A rede neural identifica padrões, relações entre palavras, contexto e estrutura das frases.
+4. Geração ou compreensão de texto
+    → Depois do treino, o modelo consegue responder perguntas, traduzir idiomas, resumir textos e gerar conteúdo.
+
+Principais arquiteturas
+
+Ao longo dos anos, diferentes tipos de redes neurais foram utilizadas no PLN.
+
+1. Redes Neurais Recorrentes (RNN)
+    As RNN (Recurrent Neural Networks) foram uma das primeiras arquiteturas utilizadas no PLN.
+
+    Características:
+    → Processam palavras em sequência.
+    → Mantêm informação sobre palavras anteriores.
+    → Funcionam bem para textos curtos.
+
+    Limitações:
+    → Dificuldade em lembrar informações presentes em textos muito longos.
+
+2. LSTM (Long Short-Term Memory)
+    As LSTM são uma evolução das RNN.
+
+    Vantagens:
+    → Conseguem armazenar informações importantes por mais tempo.
+    → Melhor desempenho em textos longos.
+    → Muito utilizadas em tradução automática e reconhecimento de voz.
+
+3. Transformers
+    Os transformers revolucionaram o PLN. Em vez de processarem uma palavra de cada vez, conseguem analisar toda a frase simultaneamente, identificando quais palavras são mais importantes para compreender o contexto.
+
+    Vantagens:
+    → Maior velocidade de treino.
+    → Melhor compreensão do contexto.
+    → Elevada precisão em diversas tarefas.
+    → Facilidade para treinar modelos muito grandes.
+
+    Hoje, a maioria dos modelos modernos de IA utiliza essa arquitetura.
+
+Exemplos de aplicações
+
+O Deep Learning para PLN é utilizado em:
+→ Chatbots inteligentes.
+→ Assistentes virtuais.
+→ Tradução automática.
+→ Resumo automático de textos.
+→ Correção gramatical.
+→ Análise de sentimentos.
+→ Classificação de documentos.
+→ Pesquisa inteligente.
+→ Geração automática de texto.
+→ Resposta automática a perguntas.
+
+Vantagens:
+→ Aprende automaticamente características da linguagem.
+→ Compreende melhor o contexto das frases.
+→ Elevada precisão em tarefas complexas.
+→ Suporta múltiplos idiomas.
+→ Melhora continuamente quando treinado com mais dados.
+
+Desvantagens:
+→ Requer grandes quantidades de dados para treino.
+→ Exige elevado poder computacional (GPUs/TPUs).
+→ O treino pode ser demorado e dispendioso.
+→ Pode refletir vieses presentes nos dados utilizados.
+
