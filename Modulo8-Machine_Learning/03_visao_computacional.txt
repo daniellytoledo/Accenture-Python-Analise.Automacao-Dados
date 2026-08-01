@@ -1,0 +1,30 @@
+
+O que é Visão Computacional? 
+
+    A Visão Computacional (Computer Vision) é uma área da Inteligência Artificial que permite que computadores e máquinas captem, analisem, interpretem e compreendam informações conridas em imagense vídeos, de forma semelhante à visão humana. O objetivo é fazer com que um sistema consiga "enxergar" o ambiente, identificar elementos presentes e tomar decisões com base nessas informações.
+
+Como funciona?
+    O processo de visão computacional pode ser dividido em quatro etapas principais:
+
+    1. Captura de imagem
+        A imagem ou vídeo é obtivo por câmaras, smartphones, drones ou sensores.
+    2. Pré-processamento
+        A imagem é melhorada para facilitar a análise, com técnicas como:
+            → redução de ruídos
+            → ajuste de brulho e contraste
+            → redimensionamento
+            → conversão para escala de cinzentos (tons de cinza)
+    3. Extração de características
+        O sistema identifica informações importantes, como:
+            → bordas
+            → formas
+            → cores
+            → texturas
+            → padrões
+    4. Análise e decisão
+        Algoritmos de Machine Learning e Deep Learning interpretam essas características para reconheceer objetos, pessoas ou ações.
+
+Principais tarefas da Visão Computacional
+    → Classificação de imagens: identifica a categoria de uma imagem (por exemplo, "gato" ou "cachorro")
+    → Deteção de objetos: localiza e identifica vários objetos na mesma imagem
+    → 

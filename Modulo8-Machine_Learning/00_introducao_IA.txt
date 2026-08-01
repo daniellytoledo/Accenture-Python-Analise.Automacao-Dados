@@ -6,27 +6,27 @@ IA Geral (Artificial General Intelligence - AGI) → A IA Geral é um tipo de in
 Qualquer técnica que permite o computador a imitar a inteligência humana, usando a lógica, regras matemáticas, árvores de decisão e Machine Learning (incluindo Deep Learning).
 
 Características:
-→ Aprende qualquer tipo de tarefa.
-→ Adapta conhecimentos para novos contextos.
-→ Raciocina, planeja e toma decisões de forma semelhante a um ser humano.
-→ Ainda não existe de forma comprovada.
+    → Aprende qualquer tipo de tarefa.
+    → Adapta conhecimentos para novos contextos.
+    → Raciocina, planeja e toma decisões de forma semelhante a um ser humano.
+    → Ainda não existe de forma comprovada.
 
 -----------------------------------------
 
 IA Restrita (Artificial Narrow Intelligence - ANI) → é a inteligência artificial desenvolvida para realizar uma tarefa específica. Ela pode ser extremamente eficiente nessa tarefa, mas não consegue atuar fora do domínio para o qual foi criada.
 
 Características:
-→ Especializada em uma única função ou conjunto limitado de funções.
-→ Não possui consciência nem compreensão geral.
-→ É o tipo de IA utilizada atualmente.
+    → Especializada em uma única função ou conjunto limitado de funções.
+    → Não possui consciência nem compreensão geral.
+    → É o tipo de IA utilizada atualmente.
 
 Exemplos:
-→ Assistentes virtuais (Siri, Alexa, Google Assistente).
-→ Sistemas de recomendação da Netflix e Spotify.
-→ Filtros de spam de e-mail.
-→ Reconhecimento facial.
-→ Tradutores automáticos.
-→ Chatbots.
+    → Assistentes virtuais (Siri, Alexa, Google Assistente).
+    → Sistemas de recomendação da Netflix e Spotify.
+    → Filtros de spam de e-mail.
+    → Reconhecimento facial.
+    → Tradutores automáticos.
+    → Chatbots.
 
 Subconjunto da IA que inclui técnicas estatísticas que permitem máquinas de melhorar tarefas através da experiência. Está incluso o deep learning.
 
@@ -35,17 +35,17 @@ Subconjunto da IA que inclui técnicas estatísticas que permitem máquinas de m
 Machine Learning (Aprendizagem de Máquina) → é uma área da Inteligência Artificial que permite que os computadores aprendam a partir de dados, sem que todas as regras sejam programadas manualmente. Em vez de dizer ao computador exatamete como resolver um problema, fornecemos exemplos (dados),e ele identifica padrões para fazer ou tomar decisões.
 
 Como funciona:
-→ Recolhem-se dados.
-→ O algoritmo analisa esses dados.
-→ Aprende padrões existentes.
-→ Usa esses padrões para fazer previsões sobre novos dados.
+    → Recolhem-se dados.
+    → O algoritmo analisa esses dados.
+    → Aprende padrões existentes.
+    → Usa esses padrões para fazer previsões sobre novos dados.
 
 Exemplos:
-→ Prever o preço de casas.
-→ Identificar se um e-mail é spam.
-→ Detectar fraude bancária.
-→ Reconhecer imagens de gatos e cães.
-→ Prever se um cliente irá cancelar um serviço.
+    → Prever o preço de casas.
+    → Identificar se um e-mail é spam.
+    → Detectar fraude bancária.
+    → Reconhecer imagens de gatos e cães.
+    → Prever se um cliente irá cancelar um serviço.
 
 Subconjunto de Machine Learning composto por algoritmos que permitem o software treinar a si mesmo para desempenhar tarefas, como reconhecimento de imagem e voz, por meio de múltiplas camadas de redes neurais artificiais.
 
@@ -70,9 +70,9 @@ O Teste de Turing é um teste proposto pelo matemático e cientista da computaç
 Como funciona?
 
 O teste envolve três participantes:
-→ Um avaliador humano.
-→ Um ser humano.
-→ Uma máquina (IA).
+    → Um avaliador humano.
+    → Um ser humano.
+    → Uma máquina (IA).
 
 O avaliador conversa, normalmente por texto, com os dois participantes sem saber quem é quem. Depois da conversa, ele deve identificar qual é o humano e qual é a máquina. Se o avaliador não conseguir distinguir a máquina do humano de forma confiável, considera-se que a máquina passou no Teste de Turing.
 
@@ -84,9 +84,9 @@ Limitações
 
 Hoje, o teste de Turing é considerado um marco histórico, mas possui limitações:
 
-→ Uma IA pode parecer humana sem realmente compreender o que diz.
-→ O teste mede a capacidade de imitar uma conversa humana, não necessariamente inteligência, raciocínio ou consciência.
-→ Existem sistemas especializados que resolvem problemas complexos muito melhor do que humanos, mas não passariam no teste por não conseguirem manter uma conversa natural.
+    → Uma IA pode parecer humana sem realmente compreender o que diz.
+    → O teste mede a capacidade de imitar uma conversa humana, não necessariamente inteligência, raciocínio ou consciência.
+    → Existem sistemas especializados que resolvem problemas complexos muito melhor do que humanos, mas não passariam no teste por não conseguirem manter uma conversa natural.
 
 ------------------------------------------
 
@@ -96,29 +96,29 @@ Como funciona?
 
 De forma simplificada, o processo acontece em quatro etapas:
 
-1. Captura da imagem – por meio de câmaras, drones, telemóveis ou outros sensores.
-2. Pré-processamento – melhora a qualidade da imagem (redução de ruído, ajuste de brilho, contraste, etc.).
-3. Extração de características – identifica padrões como formas, cores, texturas e contornos.
-4. Análise e decisão – algoritmos de IA e Machine Learning classificam ou reconhecem o que aparece na imagem.
+    1. Captura da imagem – por meio de câmaras, drones, telemóveis ou outros sensores.
+    2. Pré-processamento – melhora a qualidade da imagem (redução de ruído, ajuste de brilho, contraste, etc.).
+    3. Extração de características – identifica padrões como formas, cores, texturas e contornos.
+    4. Análise e decisão – algoritmos de IA e Machine Learning classificam ou reconhecem o que aparece na imagem.
 
 Exemplos de aplicações
-→ Reconhecimento facial para desbloquear um smartphone.
-→ Carros autónomos, que identificam sinais de trânsito, peões e outros veículos.
-→ Diagnóstico médico, analisando radiografias, tomografias e ressonâncias.
-→ Controlo de qualidade em fábricas para identificar produtos com defeito.
-→ Leitura de matrículas em parques de estacionamento.
-→ Deteção de objetos em sistemas de videovigilância.
-→ Contagem de pessoas em eventos ou centros comerciais.
+    → Reconhecimento facial para desbloquear um smartphone.
+    → Carros autónomos, que identificam sinais de trânsito, peões e outros veículos.
+    → Diagnóstico médico, analisando radiografias, tomografias e ressonâncias.
+    → Controlo de qualidade em fábricas para identificar produtos com defeito.
+    → Leitura de matrículas em parques de estacionamento.
+    → Deteção de objetos em sistemas de videovigilância.
+    → Contagem de pessoas em eventos ou centros comerciais.
 
 Exemplo prático
 
 Imagine uma câmara instalada numa estrada... através da visão computacional, o sistema consegue:
 
-→ identificar um automóvel;
-→ reconhecer a matrícula;
-→ calcular a velocidade;
-→ verificar se o veículo ultrapassou o limite permitido;
-→ enviar automaticamente uma notificação de infração.
+    → identificar um automóvel;
+    → reconhecer a matrícula;
+    → calcular a velocidade;
+    → verificar se o veículo ultrapassou o limite permitido;
+    → enviar automaticamente uma notificação de infração.
 
 Tudo isso acontece sem intervenção humana.
 
@@ -127,7 +127,7 @@ Tudo isso acontece sem intervenção humana.
 A visão computacional utiliza frequentemente Machine Learninge e, principalmente, Deep Learning para aprender a reconhecer padrões em imagens.
 
 Por exemplo:
-→ Um modelo pode ser treinado com milhares de fotografias de gatos e cães.
-→ Depois do treino, consegue identificar se uma nova imagem contém um gato ou um cão com elevada precisão.
+    → Um modelo pode ser treinado com milhares de fotografias de gatos e cães.
+    → Depois do treino, consegue identificar se uma nova imagem contém um gato ou um cão com elevada precisão.
 
 Quanto mais dados de qualidade forem utilizados no treino, melhor tende a ser o desempenho do modelo.
