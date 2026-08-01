@@ -1,0 +1,133 @@
+
+Como a rede YOLO funciona?
+    YOLO (You Only Look Once) é um algoritmo de Visão Computacional baseado em Deep Learning, desenvolvido para detetar objetos em imagens e vídeos em tempo real. O nome "You Only Look Once" ("Você olha apenas uma vez") refere-se ao facto de que a rede analisa a imagem inteira numa única passagem, tornando-a muito mais rápida do que métodos mais antigos.
+
+Como funciona?
+    O funcionamento da YOLO pode ser dividido em 5 etapas:
+
+    1. Rece a imagem
+        A imagem é fornecida como entrada para a rede neural.
+
+        Exemplo:
+            Uma fotografia de uma rua contento: carros, pessoas, bicicletas, sinais de trânsito.
+
+    2. Divide a imagem em uma grelha (grid)
+        A imagem é dividida em várias células (por exemplo, 13x13, 19x19, 52x52, dependendo da versão da YOLO).
+
+        Exemplo:
+            +---+---+---+---+
+            |   |   |   |   |
+            +---+---+---+---+
+            |   | 🚗|   | 🚶|
+            +---+---+---+---+
+            | 🚲|   | 🌳|   |
+            +---+---+---+---+
+            |   | 🚙|   |   |
+            +---+---+---+---+
+            Cada célula é responsável por prever os objetos cujo centro está dentro dela.
+
+    3. Cada célula faz previsões
+        Para cada célula, a YOLO prevê:
+            → coordenadas da caixa delimitadora (bounding box);
+            → probabilidade de existir um objeto;
+            → classe do objeto.
+
+        Por exemplo:
+
+            Objeto          Confiança
+            Carro           98%
+            Pessoa          95%
+            Bicicleta       90%
+
+    4. Elimina caixas repetidas (Non-Maxiumum Suppression)
+        É comumque várias caixas sejam previstas para o mesmo objeto.
+
+        Exemplo:
+            Pessoa
+            ┌───────────────┐
+            │ ┌───────────┐ │
+            │ │ Pessoa    │ │
+            │ └───────────┘ │
+            └───────────────┘
+            A técnica chamada Non-Maxiumum Suppression (NMS) mantém apenas a cauxa com maior confiança e remove as restantes.
+
+    5. Resultado final
+        No final, a imagem apresenta cada objeto identificado com:
+            → uma caixa delimitadora;
+            → o nome da classe;
+            → a probabilidade da previsão.
+
+            Exemplo:
+            ┌───────────────┐
+            │ Pessoa 97%    │
+            └───────────────┘
+
+            ┌───────────────┐
+            │ Carro 99%     │
+            └───────────────┘
+
+Por que a YOLO é tão rápida?
+    Antes da YOLO, muitos algoritmos funcionavam assim:
+
+    1. Aprocuravam regiões da imagem que poderiam conter objetos
+    2. Analisavam cada região separadamente
+    3. Classificavam cada região 
+
+    Isso exigia várias passagens pela imagem. A YOLO faz tudo numa única rede neural:
+
+    Imagem
+        │
+        ▼
+    Rede Neural
+        │
+        ▼
+    Localização + Classificação
+
+    Por isso consegue processar dezenas ou até centenas de imagens por segundo, dependendo do modelo e do hardware.
+
+    Imagem
+      │
+      ▼
+    Rede Neural Convolucional (CNN)
+      │
+      ▼
+    Extração de características
+      │
+      ▼
+    Predição das caixas
+      │
+      ▼
+    Predição das classes
+      │
+      ▼
+    Non-Maximum Suppression
+      │
+      ▼
+    Resultado final
+
+Vantagens:
+
+    → Muito rápida (deteção em tempo real).
+    → Boa precisão.
+    → Deteta vários objetos simultaneamente.
+    → Funciona em imagens e vídeos.
+    → Muito utilizada em aplicações industriais.
+
+Desvantagens:
+
+    → Versões mais antigas tinham dificuldade em detetar objetos muito pequenos.
+    → Pode perder precisão quando há muitos objetos muito próximos.
+    → Modelos maiores exigem maior capacidade de processamento.
+
+Aplicações:
+
+    → 🚗 veículos autónomos;
+    → 📹 videovigilância;
+    → 🏭 inspeção industrial;
+    → 🛒 lojas inteligentes;
+    → 🚁 drones;
+    → ⚽ análise desportiva;
+    → 🌾 agricultura de precisão;
+    → 🩺 deteção de anomalias em imagens médicas.
+
+    

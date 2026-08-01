@@ -27,4 +27,56 @@ Como funciona?
 Principais tarefas da Visão Computacional
     → Classificação de imagens: identifica a categoria de uma imagem (por exemplo, "gato" ou "cachorro")
     → Deteção de objetos: localiza e identifica vários objetos na mesma imagem
-    → 
+    → Reconhecimento facil: identifica ou verifica a identidade de uma pessoa
+    → Segmentação de imagens: divide a imagem em regiões para analisar cada parte
+    → Reconhecimento de texto (OCR): extrai texto de imagens e documentos
+    → Rastreamento de objetos: acompanha o movimento de objetos em vídeos
+
+Aplicações
+    A visão computacional está presente em diversas áreas:
+        → Segurança: reconhecimento facial e videovigilância
+        → Saúde: análise de radiografias, tomografias e ressonâncias magnéticas
+        → Indústria: inspeção automática de produtos para identificar defeitos
+        → Agricultura: monitorização de culturas por drones
+        → Veículos autónomos: deteção de peões, sinais de trânsito e outros veículos 
+        → Comércio: caixas de pagamento automático e contagem de clientes
+        → Aplicações móveis: filtros de fotografia e leitura de códigos quatro
+
+Exemplos do dia a dia
+    → Desbloquear um smartphone com o rosto.
+    → Um carro autónomo identificar um semáforo vermelho.
+    → O Google Fotos organizar imagens por pessoas ou locais.
+    → Um sistema ler automaticamente a matrícula de um veículo.
+    → Um hospital utilizar IA para detetar sinais de doenças em exames médicos.
+
+Relação com Machine Learning e Deep Learning
+
+    A visão computacional moderna utiliza frequentemente Machine Learning, especialmente Deep Learning, para reconhecer padrões em imagens. Um exemplo é o treino de uma rede neural com milhares de fotografias de gatos e cães. Após o treino, o modelo consegue classificar corretamente novas imagens que nunca viu.
+
+Ferramentas e bibliotecas mais utilizadas em Python
+
+    → OpenCV – processamento e manipulação de imagens e vídeos
+    → TensorFlow – criação e treino de modelos de Deep Learning
+    → PyTorch – desenvolvimento de redes neurais
+    → YOLO (You Only Look Once) – deteção de objetos em tempo real
+    → MediaPipe – reconhecimento de mãos, rosto e pose corporal
+    → Pillow (PIL) – manipulação básica de imagens
+
+Imagem/Vídeo
+      │
+      ▼
+Captura pela câmara
+      │
+      ▼
+Pré-processamento
+      │
+      ▼
+Extração de características
+      │
+      ▼
+Machine Learning / Deep Learning
+      │
+      ▼
+Identificação e tomada de decisão
+
+
