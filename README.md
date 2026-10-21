@@ -4,4 +4,6 @@ Repositório destinado aos projetos e atividades desenvolvidos durante o **Bootc
 
 ---
 
-*Bootcamp Accenture · DIO*
+## 📜 Certificado
+
+![Certificado Accenture](./Certificado.jpg)
